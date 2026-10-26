@@ -37,6 +37,48 @@
     targets.forEach(function (el) { io.observe(el); });
   }
 
+  // 同一主题的所有页面保持在同一个网格里。
+  var themeButtons = document.querySelectorAll("[data-theme]");
+  var names = { all: "三种主题首页并排对比。选择主题可查看完整页面组。", clean: "清爽极简 · 首页、投票、广场、详情、评论与我的", retro: "温柔复古 · 首页、投票、广场、详情、评论与我的", fun: "趣味涂鸦 · 首页、投票、广场、详情、评论与我的" };
+  function selectTheme(theme) {
+    if (!Object.prototype.hasOwnProperty.call(names, theme)) return;
+    themeButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.dataset.theme === theme)); });
+    document.querySelectorAll("[data-gallery]").forEach(function (panel) { panel.hidden = panel.dataset.gallery !== theme; });
+    document.getElementById("theme-status").textContent = names[theme];
+  }
+  themeButtons.forEach(function (button) { button.addEventListener("click", function () { selectTheme(button.dataset.theme); }); });
+  selectTheme(new URLSearchParams(window.location.search).get("theme") || "all");
+
+  // 原生 dialog 提供焦点约束、Escape 关闭，并返回到打开它的图片。
+  var viewer = document.getElementById("image-viewer");
+  var viewerImage = document.getElementById("viewer-image");
+  var zoom = document.getElementById("viewer-zoom");
+  if (viewer && typeof viewer.showModal === "function") {
+    document.querySelectorAll(".screenshot-link, .admin-shots a").forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        var image = link.querySelector("img");
+        viewerImage.src = link.href;
+        viewerImage.alt = image.alt;
+        document.getElementById("viewer-title").textContent = image.alt;
+        document.getElementById("viewer-original").href = link.href;
+        viewer.classList.remove("native-size");
+        zoom.setAttribute("aria-pressed", "false");
+        zoom.textContent = "原始尺寸";
+        viewer.showModal();
+        viewer.querySelector(".viewer-stage").scrollTo(0, 0);
+      });
+    });
+    document.getElementById("viewer-close").addEventListener("click", function () { viewer.close(); });
+    zoom.addEventListener("click", function () {
+      var native = viewer.classList.toggle("native-size");
+      zoom.setAttribute("aria-pressed", String(native));
+      zoom.textContent = native ? "适合窗口" : "原始尺寸";
+    });
+    viewer.addEventListener("click", function (event) { if (event.target === viewer) viewer.close(); });
+  }
+
   // 年份
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());

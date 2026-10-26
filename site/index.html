@@ -27,7 +27,7 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="nav" class="nav" aria-label="页面导航">
-      <a href="#screenshots">界面</a>
+      <a href="#themes">真实界面</a>
       <a href="#features">玩法</a>
       <a href="#mechanism">机制</a>
       <a href="#admin">管理中心</a>
@@ -52,7 +52,8 @@
       <p class="hero-sub">给疲惫的日常一点幽默。</p>
       <p class="hero-desc">一款微信小程序：把「今晚想不想摆烂」这类日常小纠结，写成一份份限时开放的趣味申请，让路过的陌生人投票、评论、围观——批准也好驳回也罢，认真的人都很有趣。</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#video">▶ 观看演示视频</a>
+        <a class="btn btn-primary" href="#themes">看看三种性格 →</a>
+        <a class="btn btn-ghost" href="#video">▶ 观看演示视频</a>
         <a class="btn btn-ghost" href="https://github.com/novafliex/can-i-take-a-break" target="_blank" rel="noopener">GitHub 仓库 →</a>
       </div>
       <ul class="hero-tags" aria-label="技术标签">
@@ -67,53 +68,52 @@
   </div>
 </section>
 
-<!-- ② 真实截图 -->
-<section class="section" id="screenshots">
+<section class="section theme-showcase" id="themes" aria-labelledby="themes-title">
   <div class="wrap">
-    <h2 class="section-title"><span class="stamp stamp-blue">REAL UI</span>真实界面</h2>
-    <div class="screenshot-layout">
-      <figure class="phone">
-        <img src="assets/home.jpg" alt="小程序首页截图：发起申请入口、主题标签、今日精选申请卡片" width="469" height="1039" loading="lazy">
-        <figcaption>首页 · 清爽极简主题 · 真实运行截图</figcaption>
-      </figure>
-      <div class="screenshot-notes">
-        <p class="note-title">这张截图想说明什么</p>
-        <ul class="note-list">
-          <li><strong>产品一眼能看懂</strong>：大标题说清「能摆吗」，一句话讲清玩法，六个主题标签就是全部入口。</li>
-          <li><strong>内容即界面</strong>：今日精选、我的申请，全部来自产品真实运行数据。</li>
-          <li><strong>轻松的视觉语气</strong>：奶油纸底、柔和配色、申请卡上的涂鸦贴纸——认真生活，偶尔不正经。</li>
-        </ul>
-        <p class="note-honest">如实说明：截图为当前版本（业务 V2.2.1 + 视觉 V3.0）的真实运行画面，画面中的账号与内容均为产品内置演示数据，不含真实用户信息。</p>
-      </div>
+    <div class="gallery-intro"><div><p class="kicker">THREE WAYS TO TAKE A BREAK</p><h2 class="section-title" id="themes-title">同一份小纠结，三种性格</h2></div><p>选一种主题，从首页一路逛到评论区。点击任意画面，放大查看细节。</p></div>
+    <div class="theme-switcher" role="group" aria-label="选择界面主题">
+      <button type="button" data-theme="all" aria-pressed="true">首页对比</button>
+      <button type="button" data-theme="clean" aria-pressed="false">清爽极简</button>
+      <button type="button" data-theme="retro" aria-pressed="false">温柔复古</button>
+      <button type="button" data-theme="fun" aria-pressed="false">趣味涂鸦</button>
     </div>
-    <div class="shot-grid">
-      <figure>
-        <img src="assets/review-pending.jpg" alt="投票页：批准或驳回" loading="lazy">
-        <figcaption>投一票 · 批准 / 驳回</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/result-hidden.jpg" alt="申请详情：票数保密" loading="lazy">
-        <figcaption>投票中 · 票数保密</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/comments.jpg" alt="评论区：楼中楼与趣味角色" loading="lazy">
-        <figcaption>评论 · 楼中楼与趣味角色</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/article-topic.jpg" alt="文章底部话题与一键发起申请" loading="lazy">
-        <figcaption>聊两句 · 话题变申请</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/profile.jpg" alt="我的页：等级 XP 与参与记录" loading="lazy">
-        <figcaption>我的 · XP 与参与记录</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/theme-picker.jpg" alt="外观与主题：三套主题切换" loading="lazy">
-        <figcaption>外观 · 三套主题换肤</figcaption>
-      </figure>
-    </div>
+    <p id="theme-status" class="theme-status" aria-live="polite">三种主题首页并排对比。选择主题可查看完整页面组。</p>
+    <div class="gallery-panel" data-gallery="all"><div class="shot-grid screen-gallery comparison-gallery">
+      <figure class="screen-card theme-clean"><figcaption><strong>清爽极简</strong><span>留白、轻色彩，让申请和故事成为主角。</span></figcaption><a class="screenshot-link" href="assets/home.png" target="_blank" rel="noopener" aria-label="放大查看清爽极简"><img src="assets/home.png" alt="清爽极简真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card theme-retro"><figcaption><strong>温柔复古</strong><span>奶油纸底、绘本插画，把小纠结翻成生活杂志。</span></figcaption><a class="screenshot-link" href="assets/home-retro.png" target="_blank" rel="noopener" aria-label="放大查看温柔复古"><img src="assets/home-retro.png" alt="温柔复古真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card theme-fun"><figcaption><strong>趣味涂鸦</strong><span>深色按钮、黄色点缀，给日常加一点玩心。</span></figcaption><a class="screenshot-link" href="assets/home-fun-current.png" target="_blank" rel="noopener" aria-label="放大查看趣味涂鸦"><img src="assets/home-fun-current.png" alt="趣味涂鸦真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+    </div></div>
+    <div class="gallery-panel" data-gallery="clean" hidden><div class="gallery-heading"><h3>清爽极简</h3><p>留白、轻色彩，让申请和故事成为主角。</p></div><div class="shot-grid screen-gallery">
+      <figure class="screen-card "><figcaption><strong>01 · 首页</strong><span>发起入口与今日精选</span></figcaption><a class="screenshot-link" href="assets/home.png" target="_blank" rel="noopener" aria-label="放大查看01 · 首页"><img src="assets/home.png" alt="01 · 首页真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>02 · 投票</strong><span>路人的小纠结，等你一票</span></figcaption><a class="screenshot-link" href="assets/review-pending.png" target="_blank" rel="noopener" aria-label="放大查看02 · 投票"><img src="assets/review-pending.png" alt="02 · 投票真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>03 · 广场</strong><span>围观大家的申请</span></figcaption><a class="screenshot-link" href="assets/plaza-apply.png" target="_blank" rel="noopener" aria-label="放大查看03 · 广场"><img src="assets/plaza-apply.png" alt="03 · 广场真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>04 · 申请详情</strong><span>票数、神评论与后续故事</span></figcaption><a class="screenshot-link" href="assets/result-hidden.png" target="_blank" rel="noopener" aria-label="放大查看04 · 申请详情"><img src="assets/result-hidden.png" alt="04 · 申请详情真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>05 · 评论区</strong><span>趣味角色与楼中楼回复</span></figcaption><a class="screenshot-link" href="assets/comments.png" target="_blank" rel="noopener" aria-label="放大查看05 · 评论区"><img src="assets/comments.png" alt="05 · 评论区真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>06 · 我的</strong><span>参与记录与成长</span></figcaption><a class="screenshot-link" href="assets/profile.png" target="_blank" rel="noopener" aria-label="放大查看06 · 我的"><img src="assets/profile.png" alt="06 · 我的真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+    </div></div>
+    <div class="gallery-panel" data-gallery="retro" hidden><div class="gallery-heading"><h3>温柔复古</h3><p>奶油纸底、绘本插画，把小纠结翻成生活杂志。</p></div><div class="shot-grid screen-gallery">
+      <figure class="screen-card "><figcaption><strong>01 · 首页</strong><span>发起入口与今日精选</span></figcaption><a class="screenshot-link" href="assets/home-retro.png" target="_blank" rel="noopener" aria-label="放大查看01 · 首页"><img src="assets/home-retro.png" alt="01 · 首页真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>02 · 投票</strong><span>路人的小纠结，等你一票</span></figcaption><a class="screenshot-link" href="assets/review-retro.png" target="_blank" rel="noopener" aria-label="放大查看02 · 投票"><img src="assets/review-retro.png" alt="02 · 投票真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>03 · 广场</strong><span>围观大家的申请</span></figcaption><a class="screenshot-link" href="assets/plaza-retro.png" target="_blank" rel="noopener" aria-label="放大查看03 · 广场"><img src="assets/plaza-retro.png" alt="03 · 广场真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>04 · 申请详情</strong><span>票数、神评论与后续故事</span></figcaption><a class="screenshot-link" href="assets/result-retro.png" target="_blank" rel="noopener" aria-label="放大查看04 · 申请详情"><img src="assets/result-retro.png" alt="04 · 申请详情真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>05 · 评论区</strong><span>趣味角色与楼中楼回复</span></figcaption><a class="screenshot-link" href="assets/comments-retro.png" target="_blank" rel="noopener" aria-label="放大查看05 · 评论区"><img src="assets/comments-retro.png" alt="05 · 评论区真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>06 · 我的</strong><span>参与记录与成长</span></figcaption><a class="screenshot-link" href="assets/profile-retro.png" target="_blank" rel="noopener" aria-label="放大查看06 · 我的"><img src="assets/profile-retro.png" alt="06 · 我的真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+    </div></div>
+    <div class="gallery-panel" data-gallery="fun" hidden><div class="gallery-heading"><h3>趣味涂鸦</h3><p>深色按钮、黄色点缀，给日常加一点玩心。</p></div><div class="shot-grid screen-gallery">
+      <figure class="screen-card "><figcaption><strong>01 · 首页</strong><span>发起入口与今日精选</span></figcaption><a class="screenshot-link" href="assets/home-fun-current.png" target="_blank" rel="noopener" aria-label="放大查看01 · 首页"><img src="assets/home-fun-current.png" alt="01 · 首页真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>02 · 投票</strong><span>路人的小纠结，等你一票</span></figcaption><a class="screenshot-link" href="assets/review-fun.png" target="_blank" rel="noopener" aria-label="放大查看02 · 投票"><img src="assets/review-fun.png" alt="02 · 投票真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>03 · 广场</strong><span>围观大家的申请</span></figcaption><a class="screenshot-link" href="assets/plaza-fun.png" target="_blank" rel="noopener" aria-label="放大查看03 · 广场"><img src="assets/plaza-fun.png" alt="03 · 广场真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>04 · 申请详情</strong><span>票数、神评论与后续故事</span></figcaption><a class="screenshot-link" href="assets/result-fun.png" target="_blank" rel="noopener" aria-label="放大查看04 · 申请详情"><img src="assets/result-fun.png" alt="04 · 申请详情真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>05 · 评论区</strong><span>趣味角色与楼中楼回复</span></figcaption><a class="screenshot-link" href="assets/comments-fun.png" target="_blank" rel="noopener" aria-label="放大查看05 · 评论区"><img src="assets/comments-fun.png" alt="05 · 评论区真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>06 · 我的</strong><span>参与记录与成长</span></figcaption><a class="screenshot-link" href="assets/profile-fun.png" target="_blank" rel="noopener" aria-label="放大查看06 · 我的"><img src="assets/profile-fun.png" alt="06 · 我的真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+    </div></div>
+    <p class="gallery-footnote">真实运行截图 · 在小程序「我的 → 外观与主题」切换 · 支持放大与原始尺寸查看</p>
   </div>
 </section>
+<section class="section section-alt" id="screenshots"><div class="wrap"><h2 class="section-title">从阅读，到发起同款申请</h2><p>聊两句，也可以成为下一份申请的起点。</p><div class="shot-grid screen-gallery extra-gallery">
+      <figure class="screen-card "><figcaption><strong>话题变申请</strong><span>文章话题与一键发起</span></figcaption><a class="screenshot-link" href="assets/article-topic.png" target="_blank" rel="noopener" aria-label="放大查看话题变申请"><img src="assets/article-topic.png" alt="话题变申请真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+      <figure class="screen-card "><figcaption><strong>随时换一种心情</strong><span>三套主题，即时切换</span></figcaption><a class="screenshot-link" href="assets/theme-picker-fun.png" target="_blank" rel="noopener" aria-label="放大查看随时换一种心情"><img src="assets/theme-picker-fun.png" alt="随时换一种心情真实运行截图" loading="lazy"></a><span class="zoom-hint" aria-hidden="true">↗ 点击放大</span></figure>
+</div></div></section>
 
 <!-- ③ 三个核心玩法 -->
 <section class="section section-alt" id="features">
@@ -272,6 +272,10 @@
   </div>
 </footer>
 
+<dialog id="image-viewer" aria-label="截图大图预览">
+  <div class="viewer-toolbar"><p id="viewer-title"></p><div><button type="button" id="viewer-zoom" aria-pressed="false">原始尺寸</button><a id="viewer-original" target="_blank" rel="noopener">打开原图 ↗</a><button type="button" id="viewer-close" aria-label="关闭大图">关闭 ✕</button></div></div>
+  <div class="viewer-stage"><img id="viewer-image" alt=""></div>
+</dialog>
 <script src="js/main.js" defer></script>
 </body>
 </html>

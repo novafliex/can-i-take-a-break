@@ -317,3 +317,62 @@ section[id] { scroll-margin-top: 76px; }
   .timeline { grid-template-columns: repeat(4, 1fr); }
   .timeline li { padding-left: 58px; }
 }
+
+
+/* 主题画廊 */
+[hidden] { display: none !important; }
+.theme-showcase { background: var(--paper-alt); border-bottom: 2px dashed var(--line); }
+.gallery-intro { display: flex; align-items: end; justify-content: space-between; gap: 32px; }
+.gallery-intro .section-title { margin: 8px 0 0; }
+.gallery-intro > p { max-width: 25em; margin: 0; color: var(--ink-soft); }
+.theme-switcher { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.theme-switcher button { font: inherit; font-weight: 700; color: var(--ink); background: var(--card); border: 1.5px solid var(--ink); border-radius: 999px; padding: 9px 20px; cursor: pointer; }
+.theme-switcher button[aria-pressed="true"] { background: var(--yellow); box-shadow: 3px 3px 0 var(--ink); }
+.theme-switcher button:hover { background: var(--green-soft); }
+.theme-status { color: var(--ink-soft); font-size: 14px; margin: 20px 0 22px; }
+.gallery-heading { display: flex; align-items: baseline; gap: 18px; padding: 0 0 18px; border-bottom: 1px solid var(--line); }
+.gallery-heading h3 { font-size: 22px; margin: 0; }
+.gallery-heading p { color: var(--ink-soft); font-size: 14px; margin: 0; }
+.screen-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 28px 24px; margin-top: 22px; }
+.screen-gallery .screen-card { padding: 14px; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 3px 12px rgba(41,49,51,.04); background: var(--card); }
+.screen-card figcaption { text-align: left; padding: 0 2px 14px; min-height: 64px; color: var(--ink-soft); }
+.screen-card figcaption strong { display: block; color: var(--ink); font-size: 17px; }
+.screen-card figcaption span { display: block; margin-top: 3px; font-size: 13px; }
+.screen-card .screenshot-link { display: block; overflow: hidden; border-radius: 9px; border: 1px solid var(--line); background: var(--paper); cursor: zoom-in; max-width: 280px; margin: 0 auto; }
+.screen-card img { width: 100%; height: auto; border-radius: 0; display: block; }
+.zoom-hint { display: block; text-align: right; color: var(--ink-soft); font-size: 12px; margin-top: 10px; }
+.comparison-gallery .theme-clean { border-top: 4px solid #314f43; }
+.comparison-gallery .theme-retro { border-top: 4px solid #c98064; }
+.comparison-gallery .theme-fun { border-top: 4px solid #f1d47c; }
+.gallery-footnote { font-size: 13px; color: var(--ink-soft); margin: 24px 0 0; }
+.extra-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 680px; }
+#image-viewer { padding: 0; border: 1px solid var(--line); border-radius: 14px; width: min(1100px, 94vw); max-width: 94vw; height: 92dvh; max-height: 92dvh; background: var(--paper); color: var(--ink); }
+#image-viewer::backdrop { background: rgba(15,22,20,.82); }
+.viewer-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 18px; border-bottom: 1px solid var(--line); }
+.viewer-toolbar p { margin: 0; font-size: 14px; }
+.viewer-toolbar > div { display: flex; gap: 10px; flex-shrink: 0; align-items: center; }
+.viewer-toolbar button, .viewer-toolbar a { font: inherit; font-size: 13px; color: var(--ink); border: 1px solid var(--line); border-radius: 7px; background: var(--card); padding: 7px 10px; text-decoration: none; cursor: pointer; }
+.viewer-stage { height: calc(100% - 68px); overflow: auto; padding: 24px; text-align: center; }
+#viewer-image { display: block; width: min(520px, 100%); max-width: 100%; height: auto; margin: 0 auto; }
+.native-size #viewer-image { width: auto; max-width: none; }
+@media (max-width: 719px) {
+  .gallery-intro { display: block; }
+  .gallery-intro > p { margin-top: 16px; }
+  .gallery-heading { display: block; }
+  .gallery-heading p { margin-top: 6px; }
+  .screen-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; }
+  .screen-gallery .screen-card { padding: 8px; border-radius: 10px; }
+  .screen-card figcaption { min-height: 72px; }
+  .screen-card figcaption strong { font-size: 15px; }
+  .viewer-toolbar { flex-wrap: wrap; padding: 10px; gap: 8px; }
+  .viewer-toolbar p { font-size: 12px; }
+  .viewer-stage { padding: 12px; height: calc(100% - 100px); }
+  .theme-switcher button { font-size: 14px; padding: 8px 13px; }
+}
+@media (max-width: 420px) {
+  .screen-gallery { grid-template-columns: 1fr; max-width: 310px; margin-left: auto; margin-right: auto; }
+  .screen-card figcaption { min-height: 0; }
+}
+
+/* 原始管理截图为 470px 宽，避免画廊中放大。 */
+.admin-shots a { max-width: 220px; margin: 0 auto; }

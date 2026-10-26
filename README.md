@@ -26,31 +26,49 @@
 ## 真实界面
 
 <p align="center">
-  <img src="assets/screenshots/home.jpg" alt="小程序首页：发起申请入口与今日精选" width="290">
+  <img src="assets/screenshots/home.png" alt="小程序首页：发起申请入口与今日精选" width="290">
 </p>
 
 <p align="center">
   <img src="assets/screenshots/apply-form.jpg" alt="发申请：主题、理由、时长三步表单" width="185">&nbsp;
-  <img src="assets/screenshots/review-pending.jpg" alt="投票：批准或驳回，附双阵营观点" width="185">&nbsp;
+  <img src="assets/screenshots/review-pending.png" alt="投票：批准或驳回，附双阵营观点" width="185">&nbsp;
   <img src="assets/screenshots/result-settled.jpg" alt="已批准：结算印章与最终比例" width="185">
 </p>
 <p align="center">
-  <img src="assets/screenshots/result-hidden.jpg" alt="投票中票数保密，投一票才揭晓" width="185">&nbsp;
+  <img src="assets/screenshots/result-hidden.png" alt="投票中票数保密，投一票才揭晓" width="185">&nbsp;
   <img src="assets/screenshots/result-revealed.jpg" alt="比例揭晓与默契度" width="185">&nbsp;
   <img src="assets/screenshots/postvote.jpg" alt="截止后 7 天可后续表态" width="185">
 </p>
 <p align="center">
-  <img src="assets/screenshots/comments.jpg" alt="评论区：楼中楼与趣味角色" width="185">&nbsp;
-  <img src="assets/screenshots/plaza-apply.jpg" alt="广场：围观所有人的申请" width="185">&nbsp;
-  <img src="assets/screenshots/article-topic.jpg" alt="文章底部话题，一键发起同款申请" width="185">
-</p>
-<p align="center">
-  <img src="assets/screenshots/home.jpg" alt="清爽极简主题" width="185">&nbsp;
-  <img src="assets/screenshots/home-retro.jpg" alt="温柔复古主题" width="185">&nbsp;
-  <img src="assets/screenshots/theme-picker.jpg" alt="主题切换入口（含趣味涂鸦）" width="185">
+  <img src="assets/screenshots/comments.png" alt="评论区：楼中楼与趣味角色" width="185">&nbsp;
+  <img src="assets/screenshots/plaza-apply.png" alt="广场：围观所有人的申请" width="185">&nbsp;
+  <img src="assets/screenshots/article-topic.png" alt="文章底部话题，一键发起同款申请" width="185">
 </p>
 
-*以上为当前版本（业务 V2.2.1 + 视觉 V3.0）的真实运行截图；画面中的账号与内容均为产品内置演示数据。最后一行为三套可切换主题：清爽极简 / 温柔复古 / 趣味涂鸦（切换入口）。更多素材（含文章阅读页、我的页、编辑资料、V1.1 早期首页）见 [assets/screenshots/SCREENSHOTS.md](assets/screenshots/SCREENSHOTS.md)；管理中心截图已补齐，见下方。*
+### 三套可切换主题
+
+<p align="center">
+  <img src="assets/screenshots/home.png" alt="清爽极简主题首页" width="185">&nbsp;
+  <img src="assets/screenshots/home-retro.png" alt="温柔复古主题首页" width="185">&nbsp;
+  <img src="assets/screenshots/home-fun-current.png" alt="趣味涂鸦主题首页（2026-10-26 实际切换后补截）" width="185">
+</p>
+<p align="center">
+  <img src="assets/screenshots/plaza-retro.png" alt="温柔复古主题：广场" width="185">&nbsp;
+  <img src="assets/screenshots/comments-retro.png" alt="温柔复古主题：评论区" width="185">&nbsp;
+  <img src="assets/screenshots/profile-retro.png" alt="温柔复古主题：我的页" width="185">
+</p>
+<p align="center">
+  <img src="assets/screenshots/theme-picker-fun.png" alt="主题切换入口，含三套主题卡片与色板" width="185">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/result-fun.png" alt="趣味涂鸦主题：申请详情、票数保密与后续故事" width="185">&nbsp;
+  <img src="assets/screenshots/comments-fun.png" alt="趣味涂鸦主题：完整评论区、楼中楼与发布入口" width="185">
+</p>
+
+*同一套界面，三种性格：**清爽极简**（干净、克制）、**温柔复古**（温暖、日常）、**趣味涂鸦**（有趣、有梗，上图为 2026-10-26 实际切换后补截的当前版本）。在「我的」页一键切换、即时生效，原生导航栏与标签栏一并换肤。*
+
+*以上截图均为当前版本（业务 V2.2.1 + 视觉 V3.0）的真实运行画面（另有标注者除外）；画面中的账号与内容均为产品内置演示数据。更多素材（含文章阅读页、编辑资料、已结束列表）见 [assets/screenshots/SCREENSHOTS.md](assets/screenshots/SCREENSHOTS.md)。*
 
 
 ### 管理中心 · 授权与请求处理
@@ -195,3 +213,7 @@ flowchart LR
 允许注明项目名称、作者及原仓库链接的分享推广与合理引用；禁止冒名抄袭、未经授权复制改编后重新发布或售卖。完整范围见 [LICENSE.md](LICENSE.md)。本仓库采用自定义展示与推广许可。
 
 展示检查：在仓库根目录运行 pwsh -File scripts/check-showcase.ps1（或 Windows PowerShell）；GitHub Pages 部署前也会自动执行。
+
+展示页支持三主题筛选。2026-10-26 核对主题注册表与实际选择器，并补截趣味涂鸦首页、投票、广场、申请详情、完整评论区、我的页及勾选状态。
+
+展示页的三主题截图已重新导出为 576×1271 PNG，支持单主题六页面并排浏览、大图预览与原始尺寸查看；原有 JPEG 保留为历史素材。

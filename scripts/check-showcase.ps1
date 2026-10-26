@@ -27,11 +27,11 @@ foreach ($file in Get-ChildItem $root -Recurse -Filter *.md | Where-Object { $_.
     }
 }
 $inventory = [IO.File]::ReadAllText((Join-Path $root 'assets/screenshots/SCREENSHOTS.md'))
-$shots = @(Get-ChildItem (Join-Path $root 'assets/screenshots') -Filter *.jpg)
+$shots = @(Get-ChildItem (Join-Path $root 'assets/screenshots') -File | Where-Object { $_.Extension -in '.jpg', '.png' })
 if ($inventory -notmatch ('已入库素材（' + $shots.Count + ' 张）')) { throw 'Screenshot count mismatch' }
 foreach ($shot in $shots) {
     if (-not $inventory.Contains($shot.Name)) { throw "Screenshot not listed: $($shot.Name)" }
-    if ($shot.Length -gt 102400) { throw "Screenshot exceeds 100KB: $($shot.Name)" }
+    if ($shot.Length -gt 1048576) { throw "Screenshot exceeds 1MB: $($shot.Name)" }
 }
 if ((Get-FileHash (Join-Path $root 'demo/demo-video.mp4')).Hash -ne (Get-FileHash (Join-Path $site 'media/demo-video.mp4')).Hash) { throw 'Video differs' }
 Write-Output 'PASS: site references, anchors, Markdown links, shared assets, screenshot inventory and video copies.'
