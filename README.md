@@ -1,6 +1,11 @@
 # 今天能摆吗？ · Can I Take a Break?
 
-<p align="center"><img src="assets/brand/icon-256.png" alt="今天能摆吗？项目图标" width="112"></p>
+<p align="center"><a href="https://novafliex.github.io/can-i-take-a-break/"><img src="assets/brand/icon-256.png" alt="点击进入今天能摆吗？完整展示页" width="112"></a></p>
+
+<h2 align="center">🌐 <a href="https://novafliex.github.io/can-i-take-a-break/">点击进入完整展示页 →</a></h2>
+
+<p align="center">真实界面 · 玩法介绍 · 管理中心 · 演示视频 · 技术架构<br>
+<a href="https://novafliex.github.io/can-i-take-a-break/">novafliex.github.io/can-i-take-a-break</a></p>
 
 > 给疲惫的日常一点幽默。
 
