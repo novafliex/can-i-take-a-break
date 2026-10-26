@@ -1,0 +1,39 @@
+# GitHub Pages 部署：发布 site/ 目录为静态展示页。
+# 启用方式：仓库 Settings → Pages → Source 选择「GitHub Actions」，之后每次 push 到 main 自动部署。
+name: Deploy showcase site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate showcase
+        shell: pwsh
+        run: ./scripts/check-showcase.ps1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

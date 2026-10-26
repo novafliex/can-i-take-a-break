@@ -1,0 +1,25 @@
+# 环境与密钥（展示仓库不应出现，但保持防御性忽略）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 临时与产物
+*.log
+*.tmp
+*.swp
+node_modules/
+
+# 大文件防御：演示视频只保留已压缩版本
+demo/*
+!demo/demo-video.mp4
+!demo/DEMO.md
