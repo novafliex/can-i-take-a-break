@@ -15,6 +15,7 @@
       if (e.target.tagName === "A") {
         nav.classList.remove("open");
         toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "打开菜单");
       }
     });
   }
@@ -54,19 +55,47 @@
   var viewerImage = document.getElementById("viewer-image");
   var zoom = document.getElementById("viewer-zoom");
   if (viewer && typeof viewer.showModal === "function") {
+    var group = [];
+    var current = 0;
+    var opener;
+    var previous = document.getElementById("viewer-prev");
+    var next = document.getElementById("viewer-next");
+    function showImage(index) {
+      current = index;
+      var link = group[current];
+      var image = link.querySelector("img");
+      viewerImage.src = link.href;
+      viewerImage.alt = image.alt;
+      document.getElementById("viewer-title").textContent = image.alt;
+      document.getElementById("viewer-original").href = link.href;
+      document.getElementById("viewer-count").textContent = (current + 1) + " / " + group.length;
+      previous.disabled = current === 0;
+      next.disabled = current === group.length - 1;
+      viewer.classList.remove("native-size");
+      zoom.setAttribute("aria-pressed", "false");
+      zoom.textContent = "原始尺寸";
+      viewer.querySelector(".viewer-stage").scrollTo(0, 0);
+    }
+    previous.addEventListener("click", function () { if (current > 0) showImage(current - 1); });
+    next.addEventListener("click", function () { if (current < group.length - 1) showImage(current + 1); });
+    viewer.addEventListener("keydown", function (event) {
+      if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (event.key === "ArrowLeft" && current > 0) { event.preventDefault(); showImage(current - 1); }
+      if (event.key === "ArrowRight" && current < group.length - 1) { event.preventDefault(); showImage(current + 1); }
+    });
+    viewer.addEventListener("close", function () {
+      document.documentElement.classList.remove("viewer-open");
+      if (opener) opener.focus({ preventScroll: true });
+    });
     document.querySelectorAll(".screenshot-link, .admin-shots a").forEach(function (link) {
       link.addEventListener("click", function (event) {
         if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
-        var image = link.querySelector("img");
-        viewerImage.src = link.href;
-        viewerImage.alt = image.alt;
-        document.getElementById("viewer-title").textContent = image.alt;
-        document.getElementById("viewer-original").href = link.href;
-        viewer.classList.remove("native-size");
-        zoom.setAttribute("aria-pressed", "false");
-        zoom.textContent = "原始尺寸";
+        opener = link;
+        group = Array.from(link.closest(".shot-grid").querySelectorAll(".screenshot-link, .admin-shots a"));
+        showImage(group.indexOf(link));
         viewer.showModal();
+        document.documentElement.classList.add("viewer-open");
         viewer.querySelector(".viewer-stage").scrollTo(0, 0);
       });
     });
