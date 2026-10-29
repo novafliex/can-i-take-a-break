@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-28",
+  "source": "微信开发者工具真实运行截图",
+  "boundary": "仅浏览、切换主题与展开表单，未提交申请、投票或评论。官方话题不代表真实用户经历；保留实际空态。",
+  "shots": [
+    {
+      "file": "apply-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "46c5678514dd6fbb8a5c976ad912649a89270285547e35487526fdd3fd35411c"
+    },
+    {
+      "file": "feed-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "1e9c46b55664af9a96e8c38c85a96271d27d2bbacc0f5b89c29bd80a28a93131"
+    },
+    {
+      "file": "home-clean-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "857d1f561fd54489f714391a4cca4b9dbcd27519e655c5b4652c870f7a8e4906"
+    },
+    {
+      "file": "home-fun-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "45230eb7721d56de634c4b8c01a742f1e4ec7b30cb11b98ed838a876e2bd5fdf"
+    },
+    {
+      "file": "home-retro-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "5f282098fad2cc37c7b0dd17172dd65c38cc6b017ae2a9ca2f2de9a777f47577"
+    },
+    {
+      "file": "result-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "2a2490a978d66d1f88d2fcf2a145aab3dfe68c3cc2981019bb6eed20fbf8ce4b"
+    },
+    {
+      "file": "welcome-20261028.png",
+      "w": 428,
+      "h": 926,
+      "sha256": "8b5341092f697ddc656c692c688bf315b20591e16d788d36b7c11dddb2699bad"
+    }
+  ]
+}

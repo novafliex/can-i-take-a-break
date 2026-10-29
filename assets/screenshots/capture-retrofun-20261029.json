@@ -1,0 +1,134 @@
+{
+  "capturedAt": "2026-10-29T02:48:51.964Z",
+  "method": "WeChat DevTools automation (miniprogram-automator) via IDE HTTP service port; miniProgram.screenshot",
+  "boundary": "Real runtime with official demo content; no voting, publishing or administrative mutations; theme switched via storage and restored to clean afterwards",
+  "note": "Simulator zoom not at 100%: 428x921 (clean batch of same day is 590x1271)",
+  "shots": [
+    {
+      "file": "home-retro-20261029.png",
+      "description": "home · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "0c19db0c3be0830ac7c5f7f00167e4bff77a6c50cde343c87ce43518cc688762"
+    },
+    {
+      "file": "apply-retro-20261029.png",
+      "description": "apply · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "2ef717a7d70acf87c642cc63f7ebc27d4d43165f9999a222d9a0479cdf36aa0e"
+    },
+    {
+      "file": "apply-bottom-retro-20261029.png",
+      "description": "apply-bottom · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "2ef717a7d70acf87c642cc63f7ebc27d4d43165f9999a222d9a0479cdf36aa0e"
+    },
+    {
+      "file": "review-retro-20261029.png",
+      "description": "review · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "b7f4fa0c85393ce6d9b1df7477dd3032f0ef14ff14496c3e7a1fd4020db05640"
+    },
+    {
+      "file": "result-retro-20261029.png",
+      "description": "result · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "9f177cab1ce97df79c731abc9250f462c4ccdbd7dbe8ca792f48d52e15feaac0"
+    },
+    {
+      "file": "comments-retro-20261029.png",
+      "description": "comments · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "9ced16b006f964255cbd96f6d34aa49740b70f300d13d541e35629a1aa5f22f7"
+    },
+    {
+      "file": "outcome-retro-20261029.png",
+      "description": "outcome · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "e5df31abc2f2a449d11abec9d82353a230f78d8347e5a9fa2538727a53119fdc"
+    },
+    {
+      "file": "feed-retro-20261029.png",
+      "description": "feed · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "42652c91a712bb6845ce492ef351d8cf4c7aae490a12090b3c4d04d49e02a6c8"
+    },
+    {
+      "file": "profile-retro-20261029.png",
+      "description": "profile · retro",
+      "width": 428,
+      "height": 921,
+      "sha256": "38a27f4f1989f88d437cabcac334c68490f936a37d868a25982dca0f695f5ac6"
+    },
+    {
+      "file": "home-fun-20261029.png",
+      "description": "home · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "58ebb5218fec4967375fe6c98804b84236e7b1befee4f644c0695a171877f758"
+    },
+    {
+      "file": "apply-fun-20261029.png",
+      "description": "apply · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "90e4dbd01d0a99ca6cdfc5ac290c1a49515d441a6b6658b6f780483c5102c486"
+    },
+    {
+      "file": "apply-bottom-fun-20261029.png",
+      "description": "apply-bottom · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "90e4dbd01d0a99ca6cdfc5ac290c1a49515d441a6b6658b6f780483c5102c486"
+    },
+    {
+      "file": "review-fun-20261029.png",
+      "description": "review · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "1abf0e0479ecf26a1b1e06b783d7b59a40a9410c4472b1b8f6a4519d1953f426"
+    },
+    {
+      "file": "result-fun-20261029.png",
+      "description": "result · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "14d63954422ce74e9c65d18fe365120e8d3a37f863b42d994a5c23c15173d11e"
+    },
+    {
+      "file": "comments-fun-20261029.png",
+      "description": "comments · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "41538af138128ff456daf8c2d47c999a17d0c828c3d9a97db72c9b0b21b7d8c1"
+    },
+    {
+      "file": "outcome-fun-20261029.png",
+      "description": "outcome · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "b1d853ae2daadb03fa155433857308d89b00f62ee5d78315c8fc0ddc064522ba"
+    },
+    {
+      "file": "feed-fun-20261029.png",
+      "description": "feed · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "401a5e7f8fe70899090fd3f3dc49c60c56426486d5ac38c31012a684bdce748f"
+    },
+    {
+      "file": "profile-fun-20261029.png",
+      "description": "profile · fun",
+      "width": 428,
+      "height": 921,
+      "sha256": "2d4746d0f254fe936e054955d76adaa1d5fa3313fe6cd8f85ecee41db4841d98"
+    }
+  ]
+}

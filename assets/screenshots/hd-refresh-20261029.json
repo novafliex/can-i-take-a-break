@@ -1,0 +1,70 @@
+{
+  "capturedAt": "2026-10-29T00:05:37.297Z",
+  "method": "WeChat DevTools 100% display; App.captureScreenshot; original lossless PNG",
+  "boundary": "Real runtime with official demo content; no voting, publishing or administrative mutations",
+  "shots": [
+    {
+      "file": "home-clean-hd-20261029.png",
+      "description": "首页 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "5a4b2006645acadba100e1c1979d0aad98d0c1fd6c1b2217fac5d693e89dfa93"
+    },
+    {
+      "file": "apply-clean-hd-20261029.png",
+      "description": "申请表单 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "92e9795c4078adadc23e39e5bc2605cf714d26dcc9cc41756a55682db37267bd"
+    },
+    {
+      "file": "apply-bottom-clean-hd-20261029.png",
+      "description": "申请理由与时限 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "f29347eb4c4b5c02ab888a34ac2c56c9e28ab9956e1ab96485e608adfcc0ea1b"
+    },
+    {
+      "file": "review-clean-hd-20261029.png",
+      "description": "投票页 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "7f6dfb21d90be04de009afe3c08ad1c1db53e03716eac3cd26c3f919e61c4949"
+    },
+    {
+      "file": "feed-clean-hd-20261029.png",
+      "description": "广场 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "95a5dd5eb7aa1b79d4ba5fe2c4af1cfbe45a7bc952799d1cb1c27452bd23b2d0"
+    },
+    {
+      "file": "result-clean-hd-20261029.png",
+      "description": "官方示例申请详情 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "cfc3945a5df495aee756b7576e0332e303a87d8247b923b9f951bd528f7d19be"
+    },
+    {
+      "file": "comments-clean-hd-20261029.png",
+      "description": "官方示例讨论 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "c06547584556836640237dd7b483a246bccaf7b75fbb712c3120f111faa7f5b9"
+    },
+    {
+      "file": "outcome-clean-hd-20261029.png",
+      "description": "官方示例后续故事 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "721084a0f141205a8d1631c976bea612dc18e61bf90898b5404c4bf8ee74051f"
+    },
+    {
+      "file": "profile-clean-hd-20261029.png",
+      "description": "我的 · clean",
+      "width": 590,
+      "height": 1271,
+      "sha256": "30053b89d8f936ae59a7d977c684a000cf30aa3693f71696a22178ab6ac34866"
+    }
+  ]
+}

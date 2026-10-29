@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-29",
+  "source": "维护者提供的手机真机截图原文件",
+  "processing": "仅按用途重命名并逐字节复制，不裁切、不缩放、不重绘、不修改画面内容",
+  "boundary": "画面包含官方话题、趣味角色和维护者体验记录；票数与人数只是截图时状态，不代表社区运营规模。不同页面不构成同一申请的连续记录。",
+  "shots": [
+    {
+      "file": "phone-home-fun-20261029.png",
+      "original": "微信图片_20261029144611_82_17.png",
+      "description": "趣味涂鸦 · 首页",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 539662,
+      "sha256": "fd94525bb98d5e5062cd0e2f2dc6a9eb270f5f431527b503145751b8a8a504f5"
+    },
+    {
+      "file": "phone-review-fun-20261029.png",
+      "original": "微信图片_20261029144611_83_17.png",
+      "description": "趣味涂鸦 · 投票",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 430082,
+      "sha256": "057f053cc478662130187f8cc113066ab3e7dd76c66d15b24723016cb4d205aa"
+    },
+    {
+      "file": "phone-feed-fun-20261029.png",
+      "original": "微信图片_20261029144611_84_17.png",
+      "description": "趣味涂鸦 · 申请广场",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 384775,
+      "sha256": "6f9146b362835793bb26b01edb17b1f647e3262bd4341590162f75515b263074"
+    },
+    {
+      "file": "phone-articles-fun-20261029.png",
+      "original": "微信图片_20261029144611_85_17.png",
+      "description": "趣味涂鸦 · 聊两句",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 359406,
+      "sha256": "924a36db3f0ab5009c52900f610f810bc28690cb33256b47ac229e158b45c06b"
+    },
+    {
+      "file": "phone-article-fun-20261029.png",
+      "original": "微信图片_20261029144611_86_17.png",
+      "description": "文章阅读",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 389969,
+      "sha256": "8d9fd4a61098b398ef23c16539b9649af027449b92d8a2fce1ea967a2413083b"
+    },
+    {
+      "file": "phone-result-revealed-fun-20261029.png",
+      "original": "微信图片_20261029144611_87_17.png",
+      "description": "趣味涂鸦 · 已投后比例与默契度",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 351421,
+      "sha256": "2c4bd3b5315a8b8f8a9d851a007c0dc6fc647ddaa773df72103735232ccddd96"
+    },
+    {
+      "file": "phone-comments-fun-20261029.png",
+      "original": "微信图片_20261029144611_88_17.png",
+      "description": "趣味涂鸦 · 评论与楼中楼",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 278618,
+      "sha256": "5659229c099012243b95c16a8984eaafcc1b8c09a3fc8241ac96ab4104246ad4"
+    },
+    {
+      "file": "phone-result-hidden-fun-20261029.png",
+      "original": "微信图片_20261029144611_89_17.png",
+      "description": "趣味涂鸦 · 官方话题票数保密",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 281134,
+      "sha256": "5c1ee3ba2976d79a86b59bc6050162d97959d895d77f5a463f91608eb4f67a02"
+    },
+    {
+      "file": "phone-welcome-20261029.png",
+      "original": "微信图片_20261029144611_90_17.png",
+      "description": "欢迎引导",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 267578,
+      "sha256": "04cf924baf91d300b958c7098c9fb2dc3c11e1746a8f131b1296a98125844a33"
+    },
+    {
+      "file": "phone-profile-retro-20261029.png",
+      "original": "微信图片_20261029144611_91_17.png",
+      "description": "温柔复古 · 我的",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 335615,
+      "sha256": "81645b69a8ad1c9804faf5b9de5a74e8c910a51fff6ddb42a2ef947b569219aa"
+    },
+    {
+      "file": "phone-home-retro-20261029.png",
+      "original": "微信图片_20261029144611_92_17.png",
+      "description": "温柔复古 · 首页",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 585852,
+      "sha256": "f7a74a36f963f21535295a6a6549b3bedfc76f6ca8431e6bcce65f4720fedc03"
+    },
+    {
+      "file": "phone-review-retro-20261029.png",
+      "original": "微信图片_20261029144611_93_17.png",
+      "description": "温柔复古 · 投票",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 316837,
+      "sha256": "b61fd94278f49dcab4dc7963a431ee5db59837628090e3388fefe05b47126583"
+    },
+    {
+      "file": "phone-result-hidden-retro-20261029.png",
+      "original": "微信图片_20261029144611_94_17.png",
+      "description": "温柔复古 · 申请详情票数保密",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 308264,
+      "sha256": "deae7871f87bcd519698a17c269669a6573297180f6248d98c4c5d73af04c6ab"
+    },
+    {
+      "file": "phone-review-voted-retro-20261029.png",
+      "original": "微信图片_20261029144611_95_17.png",
+      "description": "温柔复古 · 已投回执",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 317680,
+      "sha256": "1a9f75f797c76b45a4be31d616c5119fe1805ccf378aeb570e49314fb92fce0f"
+    },
+    {
+      "file": "phone-comments-retro-20261029.png",
+      "original": "微信图片_20261029144611_96_17.png",
+      "description": "温柔复古 · 评论与楼中楼",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 298398,
+      "sha256": "602b365a5bc9ae47bbabf9f67b8ca6fbe0d3eb7eb1119f31e8ff0157b66f26a9"
+    },
+    {
+      "file": "phone-articles-retro-20261029.png",
+      "original": "微信图片_20261029144611_97_17.png",
+      "description": "温柔复古 · 聊两句",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 680961,
+      "sha256": "d0d41af3c9cc5345cb1a4114a63279cfc6e7a3b21988a830c4f3dbc62b2bd912"
+    },
+    {
+      "file": "phone-feed-retro-20261029.png",
+      "original": "微信图片_20261029144611_98_17.png",
+      "description": "温柔复古 · 申请广场",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 699714,
+      "sha256": "759d1c5216f2365729237d17fb838e1859e950b0065e1271bb8d1b7afed2570c"
+    },
+    {
+      "file": "phone-home-clean-20261029.png",
+      "original": "微信图片_20261029144611_99_17.png",
+      "description": "清爽极简 · 首页",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 569570,
+      "sha256": "39caca6c573e8276df69f3760fae9d7548cb07c241f07b72f78e34f3bb39011c"
+    },
+    {
+      "file": "phone-review-clean-20261029.png",
+      "original": "微信图片_20261029144611_100_17.png",
+      "description": "清爽极简 · 投票",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 298298,
+      "sha256": "70f32e27a66642163a8da1ec21f2dbd240bb7155d80ff397a1140a5274f83438"
+    },
+    {
+      "file": "phone-result-hidden-clean-20261029.png",
+      "original": "微信图片_20261029144611_101_17.png",
+      "description": "清爽极简 · 票数保密",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 306044,
+      "sha256": "a23917354b3fee926c951d29be5f551efda0a3a40053956cf43a86e4ca891b87"
+    },
+    {
+      "file": "phone-result-revealed-clean-20261029.png",
+      "original": "微信图片_20261029144611_102_17.png",
+      "description": "清爽极简 · 比例揭晓与默契度",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 322703,
+      "sha256": "76dd4524bc6f20a5e42631270fa582870282f24f7109b1f1566937e2d5b6fe21"
+    },
+    {
+      "file": "phone-comments-clean-20261029.png",
+      "original": "微信图片_20261029144611_103_17.png",
+      "description": "清爽极简 · 评论与楼中楼",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 281790,
+      "sha256": "4983c14c2a7aa325e087403979401adcc664e90276acee973037dd51e170ecf2"
+    },
+    {
+      "file": "phone-feed-clean-20261029.png",
+      "original": "微信图片_20261029144611_104_17.png",
+      "description": "清爽极简 · 申请广场",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 421510,
+      "sha256": "8fbf5a8889a92040aab81ae0d0062e732e615729062dc7b16b86d8bf43cbc60e"
+    },
+    {
+      "file": "phone-articles-clean-20261029.png",
+      "original": "微信图片_20261029144611_105_17.png",
+      "description": "清爽极简 · 聊两句",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 404984,
+      "sha256": "21b066d41ae1c2efe4f0fd881367b792bbfab6f88b4792a715db1a1dcd935d5b"
+    },
+    {
+      "file": "phone-profile-clean-20261029.png",
+      "original": "微信图片_20261029144611_106_17.png",
+      "description": "清爽极简 · 我的",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 323435,
+      "sha256": "9607af0f2ccc0f0c69ebe3db641193f0039e7aef0751d3e750e18700868e08a3"
+    },
+    {
+      "file": "phone-theme-picker-fun-20261029.png",
+      "original": "微信图片_20261029145907_107_17.png",
+      "description": "趣味涂鸦 · 外观与主题弹层",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 363639,
+      "sha256": "8fe4e7cd02540d8c6e6357ed85bead460f1ccfc75e62885fc046deeb11d10700"
+    },
+    {
+      "file": "phone-admin-entry-fun-20261029.png",
+      "original": "微信图片_20261029145907_108_17.png",
+      "description": "管理中心 · 空密钥授权入口",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 126052,
+      "sha256": "7b97e5a86707b69a6b8cbf323cf2cad2e2c79fd247216f66cb2727005d3bd61d"
+    },
+    {
+      "file": "phone-profile-fun-20261029.png",
+      "original": "微信图片_20261029145907_109_17.png",
+      "description": "趣味涂鸦 · 我发起的",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 328487,
+      "sha256": "163f4d6313ad91bba12d5f9ca9f289c7f44e07c9fbb3f08e8ac5416c35fe5d82"
+    },
+    {
+      "file": "phone-participated-fun-20261029.png",
+      "original": "微信图片_20261029145907_110_17.png",
+      "description": "趣味涂鸦 · 我参与的",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 318244,
+      "sha256": "9bd3054958b11fb0df0ac499d7a0fbe83678d2a444e883138aadd3e188f4d859"
+    },
+    {
+      "file": "phone-comments-case-fun-20261029.png",
+      "original": "微信图片_20261029145907_111_17.png",
+      "description": "趣味涂鸦 · 不叠被子申请的讨论",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 294815,
+      "sha256": "4d7f9842ef8db930dec4eaf5f554bcd0dbf245654fb88172c796470e9cdd4abc"
+    },
+    {
+      "file": "phone-outcome-fun-20261029.png",
+      "original": "微信图片_20261029145907_112_17.png",
+      "description": "趣味涂鸦 · 购物车申请的后续故事",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 279186,
+      "sha256": "7d53b58f6c60d2bcc60e045d00f5eae0a088a8e71227bb71922ed3a7c0da4da6"
+    },
+    {
+      "file": "phone-apply-bottom-fun-20261029.png",
+      "original": "微信图片_20261029145907_113_17.png",
+      "description": "趣味涂鸦 · 理由、时限与发布按钮",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 250244,
+      "sha256": "d653d0995ed77a432b1267aa08b9601ac930f4cf36f42f1f6e846e902720a4e2"
+    },
+    {
+      "file": "phone-apply-fun-20261029.png",
+      "original": "微信图片_20261029145907_114_17.png",
+      "description": "趣味涂鸦 · 发布申请与主题选择",
+      "width": 1170,
+      "height": 2532,
+      "bytes": 257813,
+      "sha256": "786a2cad17387ff7e1b52283178672a8039d87aa1d28608ef34ed23878b19dd6"
+    }
+  ]
+}

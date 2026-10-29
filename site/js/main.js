@@ -40,7 +40,7 @@
 
   // 同一主题的所有页面保持在同一个网格里。
   var themeButtons = document.querySelectorAll("[data-theme]");
-  var names = { all: "三种主题首页并排对比。选择主题可查看完整页面组。", clean: "清爽极简 · 首页、投票、广场、详情、评论与我的", retro: "温柔复古 · 首页、投票、广场、详情、评论与我的", fun: "趣味涂鸦 · 首页、投票、广场、详情、评论与我的" };
+  var names = { all: "三种主题真机首页并排对比 · 1170×2532 原图", clean: "清爽极简 · 8 张真机原图", retro: "温柔复古 · 8 张真机原图", fun: "趣味涂鸦 · 13 张真机原图" };
   function selectTheme(theme) {
     if (!Object.prototype.hasOwnProperty.call(names, theme)) return;
     themeButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.dataset.theme === theme)); });

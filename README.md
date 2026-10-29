@@ -7,9 +7,13 @@
 <p align="center">真实界面 · 玩法介绍 · 管理中心 · 演示视频 · 技术架构<br>
 <a href="https://novafliex.github.io/can-i-take-a-break/">novafliex.github.io/can-i-take-a-break</a></p>
 
-> 给疲惫的日常一点幽默。
+> 让小情绪，被看见、被回应。
 
-「今天能摆吗？」是一款微信小程序：把「今晚想不想摆烂」这类日常小纠结，变成一份份限时开放、由陌生人投票的趣味申请。它不替你做任何严肃决定，只是让想摆一下这件事，变得好玩一点。
+《今天能摆吗？》是**一个以日常小纠结为入口的轻量情绪互动社区**。它把难以开口的疲惫、犹豫和小烦恼，变成一份可以被别人认真回应、也可以被轻松调侃的公开申请。
+
+用户以「摆烂申请」开场，其他人通过赞成、反对和评论参与，申请者还可以发布后续经历。通过**申请 → 表态 → 讨论 → 后续故事**，让一个人的小情绪，变成一群人共同参与的小故事。
+
+它不是普通的投票工具、传统匿名树洞，也不是帮助用户做决定的软件。核心价值是让想法被看见、理解和回应；创新体现在**情绪表达方式、互动机制与后续反馈机制的结合**。
 
 本仓库是项目的**公开展示仓库**（产品介绍、技术文档、架构说明与展示页）。小程序与 Go 后端的开发仓库独立维护，此处不包含业务代码与任何密钥配置。
 
@@ -19,73 +23,43 @@
 
 生活已经够认真了，偶尔也可以不那么正经。
 
-「今天要不要去聚会」「这笔钱该不该花」「这条消息能不能发」——这些小纠结每天都在发生，认真权衡显得小题大做，闷在心里又有点可惜。这个产品做的事情很简单：把小纠结写成一份「申请」，讲讲理由，限时开放给陌生人投票。批准也好、驳回也罢，看到一群路人认真地为「今晚能不能摆」盖章画押，疲惫感多少会轻一点。
+「今晚能不去聚会吗」「今天能休息一下吗」——这些小纠结未必需要别人给出答案，却值得有人听见。用带有幽默感的申请形式，降低表达的心理负担，让陌生人能认真回应，也能善意调侃。投票只是交流的入口，评论与后来发生的故事让互动有了延续。
 
-它**不是**审批系统，不鼓励逃避责任，也不是心理疏导平台——投票结果不具任何约束力，只是社交互动。
+我们希望创造一个轻松、低门槛的表达空间。赞成与反对都不具有约束力，生活由申请者自己选择。
 
-## 真实界面
+## 真机高清界面 · 2026-10-29
 
-<p align="center">
-  <img src="assets/screenshots/home.png" alt="小程序首页：发起申请入口与今日精选" width="290">
-</p>
+本次使用维护者提供的 **33 张手机真机原图（1170×2532）**，只重命名并逐字节复制，不裁切、不缩放、不修改画面。三套主题、投票、申请详情、评论、文章和欢迎页均使用这批原图。
 
-<p align="center">
-  <img src="assets/screenshots/apply-form.jpg" alt="发申请：主题、理由、时长三步表单" width="185">&nbsp;
-  <img src="assets/screenshots/review-pending.png" alt="投票：批准或驳回，附双阵营观点" width="185">&nbsp;
-  <img src="assets/screenshots/result-settled.jpg" alt="已批准：结算印章与最终比例" width="185">
-</p>
-<p align="center">
-  <img src="assets/screenshots/result-hidden.png" alt="投票中票数保密，投一票才揭晓" width="185">&nbsp;
-  <img src="assets/screenshots/result-revealed.jpg" alt="比例揭晓与默契度" width="185">&nbsp;
-  <img src="assets/screenshots/postvote.jpg" alt="截止后 7 天可后续表态" width="185">
-</p>
-<p align="center">
-  <img src="assets/screenshots/comments.png" alt="评论区：楼中楼与趣味角色" width="185">&nbsp;
-  <img src="assets/screenshots/plaza-apply.png" alt="广场：围观所有人的申请" width="185">&nbsp;
-  <img src="assets/screenshots/article-topic.png" alt="文章底部话题，一键发起同款申请" width="185">
-</p>
+### 申请 → 表态 → 讨论 → 后续故事
+
+<p align="center"><img src="assets/screenshots/phone-apply-fun-20261029.png" alt="发起申请（手机真机）" width="260"> <img src="assets/screenshots/phone-review-fun-20261029.png" alt="用表态回应（手机真机）" width="260"></p>
+<p align="center"><img src="assets/screenshots/phone-comments-case-fun-20261029.png" alt="讨论与楼中楼（手机真机）" width="260"> <img src="assets/screenshots/phone-outcome-fun-20261029.png" alt="后来怎么样了（手机真机）" width="260"></p>
+
+申请表单与后续故事均已换为 **1170×2532 手机真机原图**。上图展示不同页面，并非同一份申请的连续故事。画面包含官方话题、趣味角色与体验记录，人数与票数只是截图时状态，不代表社区运营规模。
+
+<p align="center"><img src="assets/screenshots/phone-apply-bottom-fun-20261029.png" alt="理由、时限和发布按钮" width="260"> <img src="assets/screenshots/phone-participated-fun-20261029.png" alt="我参与的记录" width="260"></p>
 
 ### 三套可切换主题
 
-<p align="center">
-  <img src="assets/screenshots/home.png" alt="清爽极简主题首页" width="185">&nbsp;
-  <img src="assets/screenshots/home-retro.png" alt="温柔复古主题首页" width="185">&nbsp;
-  <img src="assets/screenshots/home-fun-current.png" alt="趣味涂鸦主题首页（2026-10-26 实际切换后补截）" width="185">
-</p>
-<p align="center">
-  <img src="assets/screenshots/plaza-retro.png" alt="温柔复古主题：广场" width="185">&nbsp;
-  <img src="assets/screenshots/comments-retro.png" alt="温柔复古主题：评论区" width="185">&nbsp;
-  <img src="assets/screenshots/profile-retro.png" alt="温柔复古主题：我的页" width="185">
-</p>
-<p align="center">
-  <img src="assets/screenshots/theme-picker-fun.png" alt="主题切换入口，含三套主题卡片与色板" width="185">
-</p>
+<p align="center"><img src="assets/screenshots/phone-home-clean-20261029.png" alt="清爽极简真机首页" width="230"> <img src="assets/screenshots/phone-home-retro-20261029.png" alt="温柔复古真机首页" width="230"> <img src="assets/screenshots/phone-home-fun-20261029.png" alt="趣味涂鸦真机首页" width="230"></p>
+<p align="center"><img src="assets/screenshots/phone-feed-retro-20261029.png" alt="复古主题申请广场" width="260"> <img src="assets/screenshots/phone-profile-clean-20261029.png" alt="我的申请与参与记录" width="260"></p>
 
-<p align="center">
-  <img src="assets/screenshots/result-fun.png" alt="趣味涂鸦主题：申请详情、票数保密与后续故事" width="185">&nbsp;
-  <img src="assets/screenshots/comments-fun.png" alt="趣味涂鸦主题：完整评论区、楼中楼与发布入口" width="185">
-</p>
+<p align="center"><img src="assets/screenshots/phone-profile-fun-20261029.png" alt="趣味涂鸦个人页" width="260"> <img src="assets/screenshots/phone-theme-picker-fun-20261029.png" alt="趣味涂鸦主题选择弹层" width="260"></p>
 
-*同一套界面，三种性格：**清爽极简**（干净、克制）、**温柔复古**（温暖、日常）、**趣味涂鸦**（有趣、有梗，上图为 2026-10-26 实际切换后补截的当前版本）。在「我的」页一键切换、即时生效，原生导航栏与标签栏一并换肤。*
+### 阅读与欢迎引导
 
-*以上截图均为当前版本（业务 V2.2.1 + 视觉 V3.0）的真实运行画面（另有标注者除外）；画面中的账号与内容均为产品内置演示数据。更多素材（含文章阅读页、编辑资料、已结束列表）见 [assets/screenshots/SCREENSHOTS.md](assets/screenshots/SCREENSHOTS.md)。*
+<p align="center"><img src="assets/screenshots/phone-articles-fun-20261029.png" alt="聊两句文章列表" width="230"> <img src="assets/screenshots/phone-article-fun-20261029.png" alt="文章阅读页" width="230"> <img src="assets/screenshots/phone-welcome-20261029.png" alt="欢迎引导" width="230"></p>
 
+### 管理中心
 
-### 管理中心 · 授权与请求处理
+<p align="center"><img src="assets/screenshots/phone-admin-entry-fun-20261029.png" alt="管理中心授权入口（空密钥）" width="260"></p>
 
-<p align="center">
-  <img src="assets/screenshots/admin-entry.jpg" alt="管理中心：授权入口" width="185">&nbsp;
-  <img src="assets/screenshots/admin-pending.jpg" alt="管理中心：待办概览与待处理隐私请求" width="185">&nbsp;
-  <img src="assets/screenshots/admin-completed.jpg" alt="管理中心：同一请求已完成，显示最近处理结果" width="185">
-</p>
-
-从左到右为授权入口、待处理请求、已完成记录：管理员可查看待办概览，按状态筛选请求，并查看最近处理结果。离开页面即清除本次密钥与列表。
-
-这组为提供的真实运行截图，密钥以密码圆点遮蔽；覆盖请求处理前后状态，尚未展示评论复核列表、处理详情与审计记录。静态展示页也已补充对应说明与完整大图入口。
+三套主题的完整图组见[展示页](https://novafliex.github.io/can-i-take-a-break/#themes)。全部原图用途与 SHA-256 见[截图清单](assets/screenshots/SCREENSHOTS.md)和[真机素材记录](assets/screenshots/phone-capture-20261029.json)。管理中心已使用新版空密钥授权入口真机图；授权后的处理列表与审计记录尚未展示。
 
 ## 核心功能
 
-产品围绕三个玩法展开，对应四个底部标签页：
+产品的互动主线是申请、表态、讨论和后续故事；以下为页面入口与配套能力：
 
 | 玩法 | 页面 | 说明 |
 | --- | --- | --- |
@@ -104,9 +78,11 @@
 
 ## 技术栈
 
+以下工程数据为 2026-10-25 快照，供了解实现思路；新版开发仓库已继续演进。
+
 | 层 | 选型 | 说明 |
 | --- | --- | --- |
-| 小程序前端 | 原生 WXML / WXSS / JavaScript | 无第三方框架，8 个页面，自研请求封装与主题系统 |
+| 小程序前端 | 原生 WXML / WXSS / JavaScript | 无第三方框架，9 个页面，自研请求封装与主题系统 |
 | 后端 | Go 1.23，标准库 `net/http` | 唯一第三方依赖是 MySQL 驱动 `go-sql-driver/mysql`，无 Web 框架、无 ORM |
 | 数据库 | MySQL 8（云托管内网） | 10 张业务表，本地开发可用同构的 JSON 文件存储 |
 | 部署 | 微信云托管（CloudBase Run） | Docker 多阶段构建、非 root 运行，小程序经 `wx.cloud.callContainer` 内网调用，不暴露公网域名 |
@@ -168,7 +144,7 @@ flowchart LR
 
 | 项 | 状态 |
 | --- | --- |
-| 小程序 | 业务版本 V2.2.1，已完成 102 项前端回归与全量 Go 测试；体验版已上传（2026-10-23），核心功能已完成，目前通过体验版展示与收集反馈 |
+| 小程序 | 历史发布记录（2026-10-23）：业务版本 V2.2.1，已完成 102 项前端回归与全量 Go 测试；体验版已上传（2026-10-23），核心功能已完成，目前通过体验版展示与收集反馈 |
 | 后端 | 云托管最新发布于 2026-10-23（发布记录 can-i-api 032 见开发仓库文档），运行于微信云托管内网 |
 | 视觉 | V3.0 全局视觉重构（三主题、CSS 变量设计系统），2026-10-24 完成 |
 | 待办 | 真机多账号验收、演示视频录制、体验反馈整理，详见 [docs/roadmap.md](docs/roadmap.md) |
@@ -216,4 +192,4 @@ flowchart LR
 
 展示页支持三主题筛选。2026-10-26 核对主题注册表与实际选择器，并补截趣味涂鸦首页、投票、广场、申请详情、完整评论区、我的页及勾选状态。
 
-展示页的三主题截图已重新导出为 576×1271 PNG，支持单主题六页面并排浏览、大图预览与原始尺寸查看；原有 JPEG 保留为历史素材。
+展示页的三主题截图已重新导出为 576×1271 PNG，支持单主题六页面并排浏览、大图预览与原始尺寸查看；原有 JPEG 保留为历史素材。2026-10-29 主线与清爽主题截图进一步以 590×1271 高清重采（hd-refresh-20261029.json），复古与涂鸦主题各 9 页经开发者工具自动化补采为 428×921（capture-retrofun-20261029.json），展示页三主题全部换用 2026-10-29 新版界面。
